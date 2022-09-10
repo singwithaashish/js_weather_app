@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather at your locale</title>
+  </head>
+  <body>
+    <div class="weather_container">
+      <div class="left_panel">
+        <div class="flex flex-col">
+          <div class="top">
+            <div class="day">Tuesday</div>
+            <div class="date">21 Sep 2022</div>
+            <div class="location">Paris, France</div>
+          </div>
+          <div class="bottom">
+            <div class="weather_icon">
+              <img
+                src="https://www.weatherbit.io/static/img/icons/weather-icons-64.png"
+                alt=""
+              />
+            </div>
+            <div class="temperature">
+              <div class="temperature_value">
+                <span class="value">21</span>
+                <span class="unit">°C</span>
+              </div>
+              <div class="temperature_description">
+                <span class="description">Sunny</span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        </div>
+        <div class="right_panel">
+          <div class="flex flex-col">
+            <div class="top_section">
+              <div class="top_section_item">
+                <div class="top_section_item_title">Wind</div>
+                <div class="wind">
+                  <span class="value">3</span>
+                  <span class="unit">m/s</span>
+                </div>
+              </div>
+              <div class="top_section_item">
+                <div class="top_section_item_title">Humidity</div>
+                <div class="humidity">
+                  <span class="value">80</span>
+                  <span class="unit">%</span>
+                </div>
+              </div>
+              <div class="top_section_item">
+                <div class="top_section_item_title">Pressure</div>
+                <div class="pressure">
+                  <span class="value">1010</span>
+                  <span class="unit">hPa</span>
+                </div>
+              </div>
+            </div>
+            <div class="middle_section">
+              <div class="flex">
+                <!-- <div class="day_card">
+                  <div class="icon">
+                    <img
+                      src="//cdn.weatherapi.com/weather/64x64/day/116.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="day">
+                    <p>Tue</p>
+                  </div>
+                  <div class="temperature">
+                    <p>21<span>°C</span></p>
+                  </div>
+                </div>
+                <div class="day_card">
+                  <div class="icon">
+                    <img
+                      src="//cdn.weatherapi.com/weather/64x64/day/116.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="day">
+                    <p>Wed</p>
+                  </div>
+                  <div class="temperature">
+                    <p>21<span>°C</span></p>
+                  </div>
+                </div>
+                <div class="day_card">
+                  <div class="icon">
+                    <img
+                      src="//cdn.weatherapi.com/weather/64x64/day/116.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="day">
+                    <p>Thr</p>
+                  </div>
+                  <div class="temperature">
+                    <p>21<span>°C</span></p>
+                  </div>
+                </div> -->
+                <div class="air_quality_card">
+                  <div class="air_quality_card_title">CO</div>
+                  
+                    <p class="value co_value">21</p>
+                    <p class="unit">µg/m³</p>
+                 
+                </div>
+                <div class="air_quality_card">
+                  <div class="air_quality_card_title">NO2</div>
+                 
+                    <p class="value no2_value">20</p>
+                    <p class="unit">µg/m³</p>
+                  
+                </div>
+                <div class="air_quality_card">
+                  <div class="air_quality_card_title">SO2</div>
+                  
+                    <p class="value so2_value">21</p>
+                    <p class="unit">µg/m³</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="bottom_section">
+              <div class="button">
+                <img src="#" alt="" srcset="">
+                <button class="change_location">Change Location</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type='text/javascript' src='config.js'></script>
+
+    <script type='text/javascript' src="script.js"></script>
+  </body>
+</html>
