@@ -3,6 +3,7 @@ to fetch weather data and displays the temperature, wind condition and the pollu
 
 ##screenshots
 
-image.png
 
 
+
+![screenshot](../../../Pictures/Screenshot%20from%202022-09-10%2011-01-54.png)
