@@ -6,4 +6,5 @@ to fetch weather data and displays the temperature, wind condition and the pollu
 
 
 
+![Sreenshot](./Image/Screenshot%20from%202023-01-13%2016-33-18.png)
 ![screenshot](../../../Pictures/Screenshot%20from%202022-09-10%2011-01-54.png)
